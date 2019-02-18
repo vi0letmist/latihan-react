@@ -68,7 +68,8 @@ const element = <Product judul="Koleksi Avengers menggunakan Class Component" ha
 ReactDOM.render(element,document.getElementById('root'));
 */
 
-const element = <Product judul="Koleksi Avengers menggunakan Class Component dlm file sendiri" harga="100.000"/>
+// const element = <Product judul="Koleksi Avengers menggunakan Class Component dlm file sendiri" harga="100.000"/>
+const element = <App/>;
 
 ReactDOM.render(element,document.getElementById('root'));
 
