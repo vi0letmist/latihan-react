@@ -8,14 +8,14 @@ class Product extends Component {
             <div className="col s6 m4 l3">
                 <div className="card blue-grey darken-1">
                     <div className="card-image white-text">
-                        <img src={logo} className=""/>
+                        <img src={logo} className="img-responsive"/>
                     </div>
                     <div className="card-content white-text">
-                        <h3 className="card-title">{this.props.judul}</h3>
+                        <h3 className="card-title"><strong>{this.props.judul}</strong></h3>
                         <h4>Rp. {this.props.harga}</h4>
                     </div>
                     <div className="card-action">
-                        <a href="#">This is a link</a>
+                        <a href="#">Hapus</a>
                     </div>
                 </div>
             </div>
