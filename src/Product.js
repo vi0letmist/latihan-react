@@ -3,9 +3,14 @@ import logo from './logo.svg'
 import './App.css'
 
 class Product extends Component {
+    constructor(){
+        super();
+        this.state = {};
+    }
+
     render() {
         return (
-            <div className="col s6 m4 l3">
+            <div className="col s12 m6 l4">
                 <div className="card blue-grey darken-1">
                     <div className="card-image white-text">
                         <img src={logo} className="img-responsive"/>
@@ -15,7 +20,7 @@ class Product extends Component {
                         <h4>Rp. {this.props.harga}</h4>
                     </div>
                     <div className="card-action">
-                        <a href="#">Hapus</a>
+                        <a onClick={this.props.deleteCard} id={this.props.id} href="#">Hapus</a>
                     </div>
                 </div>
             </div>
