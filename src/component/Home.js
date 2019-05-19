@@ -1,10 +1,6 @@
 import React from 'react';
-import BarBAr from "./ButtonAppBar";
-import '../css/home.css';
 import 'materialize-css/dist/css/materialize.min.css';
 import M from 'materialize-css/dist/js/materialize.min.js';
-import { Button, Card, Row, Col, Navbar, NavItem } from 'react-materialize';
-import gumbur from '../Images/11.jpg';
 
 class Home extends React.Component{
     componentDidMount() {
@@ -17,13 +13,15 @@ class Home extends React.Component{
             <div className="container">
             <div className="row">
                 <div className="col s12 m12 l12 welcome blue-grey lighten-5 z-depth-3">
-                <h1 align="center">Welcome to<br></br>this stupid<br></br>ugly web</h1>
-                <a className="dropdown-trigger" href="#" data-target="dropdown1"><i className="material-icons more1 right">more_vert</i></a>
-                <ul id='dropdown1' className='dropdown-content more2 right'>
-                    <li><a href="#!">one</a></li>
-                    <li><a href="#!">two</a></li>
-                    <li><a href="#!">three</a></li>
+                    <h1 align="center">Welcome to<br></br>this stupid<br></br>ugly web</h1>
+                <div className="subWell">
+                    <a className="dropdown-trigger" href="#" data-target="dropdown1"><i className="material-icons more1">more_vert</i></a>
+                    <ul id='dropdown1' className='dropdown-content'>
+                        <li><a href="#!">one</a></li>
+                        <li><a href="#!">two</a></li>
+                        <li><a href="#!">three</a></li>
                     </ul>
+                </div>
                 </div>
         
             </div>

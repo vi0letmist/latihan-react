@@ -1,8 +1,5 @@
 import React, {Component} from 'react';
 import {Switch, Route} from 'react-router-dom';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-
 import Profile from './Profile';
 import Kontak from './Kontak';
 import Home from './Home';

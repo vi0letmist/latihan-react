@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import axios from 'axios';
 import ava from '../Images/1.jpg';
-import CardProduct from "./CardProduct";
 
 class Portofolio extends React.Component {
     state = {

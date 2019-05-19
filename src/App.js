@@ -1,11 +1,9 @@
 import React, {Component} from 'react';
 import './App.css';
-import {Link} from 'react-router-dom';
 import Main from "./component/Main";
-import simsons from "./Images/simsons.png";
 import 'materialize-css/dist/css/materialize.min.css';
 import M from 'materialize-css/dist/js/materialize.min.js';
-import { Button, Card, Row, Col, Navbar, NavItem } from 'react-materialize';
+import { Navbar, NavItem } from 'react-materialize';
 
 
 class App extends Component {
@@ -16,7 +14,7 @@ class App extends Component {
     render() {
         return (
              <div>
-                 <Navbar brand={<a />} className="transparent z-depth-0 nav-center">
+                 <Navbar brand={<a />} className="transparent z-depth-0 nav-center" center>
                      <NavItem href="/home">Home</NavItem>
                      <NavItem href="/profile">Profile</NavItem>
                      <NavItem><i class="large material-icons center">cancel</i></NavItem>                     
