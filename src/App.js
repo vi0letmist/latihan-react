@@ -5,6 +5,8 @@ import 'materialize-css/dist/css/materialize.min.css';
 import M from 'materialize-css/dist/js/materialize.min.js';
 import { Navbar, NavItem } from 'react-materialize';
 
+import {Link} from 'react-router-dom';
+
 
 class App extends Component {
     componentDidMount() {
@@ -15,11 +17,11 @@ class App extends Component {
         return (
              <div>
                  <Navbar brand={<a />} className="transparent z-depth-0 nav-center" center>
-                     <NavItem href="/home">Home</NavItem>
-                     <NavItem href="/profile">Profile</NavItem>
-                     <NavItem><i class="large material-icons center">cancel</i></NavItem>                     
-                     <NavItem href="/portofolio">Portofolio</NavItem>
-                     <NavItem href="/kontak">Kontak</NavItem>
+                     <NavItem className="transparent"><Link to="/home">Home</Link></NavItem>
+                     <NavItem className="transparent"><Link to="/profile">Profile</Link></NavItem>
+                     <NavItem className="transparent"><i class="large material-icons center">cancel</i></NavItem>                     
+                     <NavItem className="transparent"><Link to="/portofolio">Portofolio</Link></NavItem>
+                     <NavItem className="transparent"><Link to="/kontak">Kontak</Link></NavItem>
                  </Navbar>
                  <p><Main/></p>
              </div>

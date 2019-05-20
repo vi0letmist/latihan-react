@@ -6,6 +6,7 @@
     "@material-ui/core": "^3.9.3",
     "@material-ui/icons": "^3.0.2",
     "axios": "^0.18.0",
+    "latest": "^0.2.0",
     "materialize-css": "^1.0.0",
     "materialize-social": "^1.0.3",
     "react": "^16.8.1",
@@ -25,7 +26,6 @@
   },
   "browserslist": [
     ">0.2%",
-    "not dead",
     "not ie <= 11",
     "not op_mini all"
   ],
