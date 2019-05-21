@@ -1,9 +1,6 @@
 import React, {Component} from 'react';
 import 'materialize-css/dist/css/materialize.min.css';
 import M from 'materialize-css/dist/js/materialize.min.js';
-import {Carousel } from 'react-materialize';
-import gumbur from '../Images/3.png';
-import ava from '../Images/1.jpg';
 
 class Profile extends Component {
     componentDidMount() {
@@ -16,6 +13,7 @@ class Profile extends Component {
           <div className="row">
             <div className="col s12 m4 l4 sidea z-depth-2 center">
               <h3 className="nameu">Jaffar<br></br>Jatmiko Jati</h3>
+              <div className="social"></div>
             </div>
             <div className="col s12 m8 l8 kanan z-depth-2">
               <div class="col s12 m12 l12">

@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import axios from 'axios';
 import ava from '../Images/1.jpg';
 
@@ -23,7 +23,7 @@ class Portofolio extends React.Component {
             <div className="col s12 m12 l12 welcome blue-grey lighten-5 z-depth-3">
             
       
-      <ul>
+      {/* <ul>
             { this.state.persons.map(person =>
                 <div class="col s12 m4 l4">
                     <div class="card-panel grey lighten-5 z-depth-1">
@@ -39,7 +39,7 @@ class Portofolio extends React.Component {
                     </div>
                 </div>
             </div>)}
-          </ul>
+          </ul> */}
             
             {/* <ul>
             { this.state.persons.map(person => <li>{person.name}</li>)}

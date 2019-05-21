@@ -16,12 +16,12 @@ class App extends Component {
     render() {
         return (
              <div>
-                 <Navbar brand={<a />} className="transparent z-depth-0 nav-center" center>
-                     <NavItem className="transparent"><Link to="/home">Home</Link></NavItem>
-                     <NavItem className="transparent"><Link to="/profile">Profile</Link></NavItem>
-                     <NavItem className="transparent"><i class="large material-icons center">cancel</i></NavItem>                     
-                     <NavItem className="transparent"><Link to="/portofolio">Portofolio</Link></NavItem>
-                     <NavItem className="transparent"><Link to="/kontak">Kontak</Link></NavItem>
+                 <Navbar brand={<a />} className="transparent z-depth-0 nav-center">
+                     <NavItem className="transparent"><Link to="/home" className="txtNav" style={{fontFamily:"moonllime"}}>Home</Link></NavItem>
+                     <NavItem className="transparent"><Link to="/profile" className="txtNav" style={{fontFamily:"moonllime"}}>Profile</Link></NavItem>
+                     <NavItem className="transparent"><i class="large material-icons center" style={{color:"#212121"}}>cancel</i></NavItem>                     
+                     <NavItem className="transparent"><Link to="/portofolio" className="txtNav" style={{fontFamily:"moonllime"}}>Portofolio</Link></NavItem>
+                     <NavItem className="transparent"><Link to="/kontak" className="txtNav" style={{fontFamily:"moonllime"}}>Kontak</Link></NavItem>
                  </Navbar>
                  <p><Main/></p>
              </div>
