@@ -6,7 +6,7 @@ body{
   background-attachment:fixed;
   background-size:cover;
   -o-animation: colorcycle 20s infinite;
-  -moz-animation: colorcycle20s infinite;
+  -moz-animation: colorcycle 20s infinite;
   -webkit-animation: colorcycle 20s infinite;
   animation: colorcycle 20s infinite; 
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
@@ -96,14 +96,14 @@ h2,h1{
     height: 540px;
     /* background-color: #ffff8d; */
     -o-animation: colorcycle 20s infinite;
-  -moz-animation: colorcycle20s infinite;
-  -webkit-animation: colorcycle 20s infinite;
-  animation: colorcycle 20s infinite; 
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  -moz-opacity: 0.5;
-  -khtml-opacity: 0.5;
-  opacity: 1;
+    -moz-animation: colorcycle20s infinite;
+    -webkit-animation: colorcycle 20s infinite;
+    animation: colorcycle 20s infinite; 
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 1;
 }
 .numbs{
   width: 100%;
