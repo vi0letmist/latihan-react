@@ -8,10 +8,9 @@
     "axios": "^0.18.0",
     "latest": "^0.2.0",
     "materialize-css": "^1.0.0",
-    "materialize-social": "^1.0.3",
-    "react": "^16.8.1",
-    "react-dom": "^16.8.1",
-    "react-materialize": "^3.3.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-materialize": "^3.3.1",
     "react-router-dom": "^5.0.0",
     "react-scripts": "1.1.5"
   },
@@ -31,6 +30,7 @@
   ],
   "devDependencies": {
     "css-loader": "^2.1.1",
+    "react-social-icons": "^4.1.0",
     "style-loader": "^0.23.1"
   }
 }

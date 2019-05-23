@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import 'materialize-css/dist/css/materialize.min.css';
 import M from 'materialize-css/dist/js/materialize.min.js';
+import { Toast } from 'react-materialize';
 
 class Kontak extends Component {
     componentDidMount() {
@@ -11,61 +12,46 @@ class Kontak extends Component {
         return (
             // <body>
                 <div className="container">
-                    <div class="row">
-                        <div class="col s12 welcome">
-                                <div id="1" class="col s12">
-                                <h1 align="center">Welcome to<br></br>this stupid<br></br>ugly web</h1>
+                    <div class="row z-depth-2">
+                            <div className="col s12 m8 l8 kiri">
+                            <h3>Any Suggestions?</h3>
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <input id="your_name" type="text" class="validate"></input>
+                                        <label for="your_name">Your Name</label>
                                 </div>
-                                <div id="2" class="col s12">
-                                <h1 align="center">Take my hand<br></br>and give a reason<br></br>to start again</h1>
+                                <div class="input-field col s6">
+                                    <input id="your_email" type="text" class="validate"></input>
+                                        <label for="your_email">Your Email</label>
                                 </div>
-                                <div id="3" class="col s12">
-                                <h1 align="center">Secret don't sleep<br></br>till they're took<br></br>to the grave</h1>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12 m12 l12">
+                                    <input id="subject" type="text" class="validate"></input>
+                                        <label for="subject">Subject</label>
                                 </div>
-                                <div id="4" class="col s12">
-                                <h1 align="center">Ask no questions<br></br>and you get<br></br>no lies</h1>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <textarea id="message" class="materialize-textarea" data-length="140"></textarea>
+                                        <label for="message">Message</label>
                                 </div>
-                                <div id="5" class="col s12">
-                                <h1 align="center">Did you really<br></br>think that you<br></br>could fix me?</h1>
+                            </div>
+                            <Toast options={{html: "sorry, i don't need no suggestion! :p"}}>
+                            Send Suggestions
+                            </Toast>     
+                            </div>
+                            <div className="col s12 m4 l4 sideb">
+                                <div className="col 12 m12 l12 atas">
+
                                 </div>
-                                <div id="6" class="col s12">
-                                <h1 align="center">Even hell can<br></br>get comfy once<br></br>you've settled in</h1>
+                                <div className="col 12 m12 l12 bawah">
+                                    <h3>Contact Details</h3>
+                                    <p>Mobile/Whatsapp:0823245725<br></br>Email:info@example.com<br></br>Address:A108 Adam Street, NY 535022, USA</p>
+                                    
                                 </div>
-                                <div id="7" class="col s12">
-                                <h1 align="center">Should i sink<br></br>or swim?<br></br>or simply disappear?</h1>
-                                </div>
-                                <div id="8" class="col s12">
-                                <h1 align="center">we're<br></br>gonna<br></br>die</h1>
-                                </div>
-                                <div id="9" class="col s12">
-                                <h1 align="center">no one's<br></br>gonna<br></br>save you</h1>
-                                </div>
-                                <div id="10" class="col s12">
-                                <h1 align="center">What doesn't kill you<br></br>make you wish<br></br>you were dead</h1>
-                                </div>
-                                <div id="11" class="col s12">
-                                <h1 align="center">There is a hell<br></br>believe me<br></br>i've seen it</h1>
-                                </div>
-                                <div id="12" class="col s12">
-                                <h1 align="center">There is a heaven<br></br>let's keep<br></br>it a secret</h1>
-                                </div>
-                                <div className="numbs">
-                            <ul class="tabs transparent">
-                            <li class="tab col s1"><a className="active" href="#1" style={{ color:"white"}}>1</a></li>
-                                <li class="tab col s1"><a href="#2" style={{color:"white"}}>2</a></li>
-                                <li class="tab col s1"><a href="#3" style={{color:"white"}}>3</a></li>
-                                <li class="tab col s1"><a href="#4" style={{color:"white"}}>4</a></li>
-                                <li class="tab col s1"><a href="#5" style={{color:"white"}}>5</a></li>
-                                <li class="tab col s1"><a href="#6" style={{color:"white"}}>6</a></li>
-                                <li class="tab col s1"><a href="#7" style={{color:"white"}}>7</a></li>
-                                <li class="tab col s1"><a href="#8" style={{color:"white"}}>8</a></li>
-                                <li class="tab col s1"><a href="#9" style={{color:"white"}}>9</a></li>
-                                <li class="tab col s1"><a href="#10" style={{color:"white"}}>10</a></li>
-                                <li class="tab col s1"><a href="#11" style={{color:"white"}}>11</a></li>
-                                <li class="tab col s1"><a href="#12" style={{color:"white"}}>12</a></li>
-                            </ul>
-                                </div>
-                        </div>
+                            </div>
+                            
                     </div>
                     </div>
             // </body>
