@@ -12,7 +12,7 @@
     "react-dom": "^16.8.6",
     "react-materialize": "^3.3.1",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "1.1.5"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -29,8 +29,8 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "css-loader": "^2.1.1",
+    "css-loader": "^6.7.3",
     "react-social-icons": "^4.1.0",
-    "style-loader": "^0.23.1"
+    "style-loader": "^3.3.1"
   }
 }
